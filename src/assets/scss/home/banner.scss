@@ -1,0 +1,55 @@
+.banner--container {
+  padding: 0 12.2rem 0 12.2rem;
+  display: flex;
+  justify-content: space-between;
+
+  .banner--left {
+    color: white;
+    padding-top: 17.625rem;
+
+    h2 {
+      font-family: 'Revamped';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 6.125rem;
+      line-height: 7.0625rem;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .BB_34 {
+      font-family: 'Barlow';
+      font-weight: 600;
+      font-size: 2.125rem;
+      line-height: 2.56rem;
+      margin: 0;
+
+      letter-spacing: 0.07rem;
+      text-transform: uppercase;
+    }
+
+    .Bb_22 {
+      font-family: 'Barlow';
+      font-weight: 400;
+      font-size: 1.375rem;
+      line-height: 1.875rem;
+      max-width: 49.3rem;
+      margin: 0;
+    }
+  }
+
+  .banner--right {
+    padding-top: 1.375rem;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      min-width: 230px;
+      height: 28px;
+      width: 100%;
+    }
+  }
+}
