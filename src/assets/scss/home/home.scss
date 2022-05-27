@@ -2,5 +2,6 @@
   background: url('../../images/home-background.png');
   background-size: cover;
   height: fit-content;
-  width: 120rem;
+  max-width: 120rem;
+  margin: auto;
 }

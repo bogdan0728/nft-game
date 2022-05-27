@@ -1,11 +1,11 @@
 .banner--container {
   padding: 0 12.2rem 0 12.2rem;
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
 
   .banner--left {
     color: white;
-    padding-top: 17.625rem;
+    margin-top: 22.875rem;
 
     h2 {
       font-family: 'Revamped';
@@ -15,6 +15,10 @@
       line-height: 7.0625rem;
       margin: 0;
       text-transform: uppercase;
+
+      @media (max-width: 1024px) {
+        font-size: 4.2rem;
+      }
     }
 
     .BB_34 {
@@ -26,6 +30,10 @@
 
       letter-spacing: 0.07rem;
       text-transform: uppercase;
+
+      @media (max-width: 1400px) {
+        max-width: 38rem;
+      }
     }
 
     .Bb_22 {
@@ -35,11 +43,47 @@
       line-height: 1.875rem;
       max-width: 49.3rem;
       margin: 0;
+      @media (max-width: 1400px) {
+        max-width: 38rem;
+      }
+    }
+
+    .btn-learn {
+      width: 22.5rem;
+      height: 3.75rem;
+      margin-top: 2.8rem;
+      margin-bottom: 21.6rem;
+
+      @media (max-width: 1400px) {
+        margin-bottom: 2rem;
+      }
     }
   }
 
   .banner--right {
-    padding-top: 1.375rem;
+    position: relative;
+    margin-top: 7.4375rem;
+    padding-right: 7rem;
+
+    @media (max-width: 1600px) {
+      margin-top: 10rem;
+    }
+
+    @media (max-width: 1400px) {
+      margin-top: 1.375rem;
+    }
+    img {
+      position: absolute;
+      top: 40px;
+      right: -120px;
+      @media (max-width: 1600px) {
+        width: 120%;
+      }
+      @media (max-width: 1400px) {
+        position: relative;
+        width: 100%;
+      }
+    }
   }
 
   &__logo {

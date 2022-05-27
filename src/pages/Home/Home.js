@@ -10,7 +10,6 @@ const Home = () => {
       <Topbar />
       <Banner />
       <Feature />
-      <div className="d-flex justify-content-center"></div>
     </div>
   )
 }
